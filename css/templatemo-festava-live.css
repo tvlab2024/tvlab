@@ -42,7 +42,12 @@ https://templatemo.com/tm-583-festava-live
   --font-weight-normal:           400;
   --font-weight-bold:             700;
 }
-
+#nav-item {
+  position: relative;
+  left: -90px;
+  background-color: #B22727; /*Whatever color you want goes here, but in Hexadecimal form*/
+  color: #1122cc; /*The color of your font also goes here, but in hexadecimal form*/
+}
 body {
   background-color: var(--white-color);
   font-family: var(--body-font-family); 
